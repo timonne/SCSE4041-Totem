@@ -1,0 +1,27 @@
+from app.prompts.versions.v1 import (
+    V1_SYSTEM_PROMPT,
+    V1_QUESTION_PROMPT,
+    V1_EVALUATION_PROMPT,
+)
+from app.prompts.versions.v2 import (
+    V2_SYSTEM_PROMPT,
+    V2_QUESTION_PROMPT,
+    V2_EVALUATION_PROMPT,
+)
+from app.prompts.versions.v3 import (
+    V3_SYSTEM_PROMPT,
+    V3_QUESTION_GENERATION_PROMPT,
+    V3_EVALUATION_ADAPTATION_PROMPT,
+)
+
+__all__ = [
+    "V1_SYSTEM_PROMPT",
+    "V1_QUESTION_PROMPT",
+    "V1_EVALUATION_PROMPT",
+    "V2_SYSTEM_PROMPT",
+    "V2_QUESTION_PROMPT",
+    "V2_EVALUATION_PROMPT",
+    "V3_SYSTEM_PROMPT",
+    "V3_QUESTION_GENERATION_PROMPT",
+    "V3_EVALUATION_ADAPTATION_PROMPT",
+]
