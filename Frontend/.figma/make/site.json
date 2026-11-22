@@ -1,0 +1,10 @@
+{
+  "description": "Practice tailored job interviews with adaptive questions, answer feedback, and performance reports to build confidence and improve your interview skills.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
